@@ -1,0 +1,302 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">FLASH</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="profile.jfif" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Dinesh</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('eyes.jpg');">
+                <img class="featured-title" src="dark.png" alt="">
+                <p class="featured-desc"> What is anime? If you aren’t already a fan, you may be asking this question. To start, anime is short for animation and is an art form that originated in Japan.
+                     The word literally means “animated cartoon” in Japanese, and while everything in Japan is considered anime, outside the country the genre is very specific. 
+                     The descriptor essentially refers to all cartoons originating in Japan or taking on signature aspects and style of Japanese animation.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title"></h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="naruto.jpg" alt="">
+                            <span class="movie-list-item-title">NARUTO</span>
+                            <p class="movie-list-item-desc">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="piece.webp" alt="">
+                            <span class="movie-list-item-title">ONE PIECE</span>
+                            <p class="movie-list-item-desc">One Piece is a Japanese anime television series
+                                 produced by Toei Animation that premiered on Fuji TV in October 1999.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="slayer.jfif" alt="">
+                            <span class="movie-list-item-title">DEMON SLAYER</span>
+                            <p class="movie-list-item-desc">A twenty-six episode anime television series adaptation produced by Ufotable aired 
+                                in Japan from April to September 2019.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="death.jpg" alt="">
+                            <span class="movie-list-item-title">DEATH NOTE</span>
+                            <p class="movie-list-item-desc">The story follows Light Yagami, a teen genius who discovers a
+                                 mysterious notebook: the "Death Note"</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="fairy.jpg" alt="">
+                            <span class="movie-list-item-title">FAIRY TAIL</span>
+                            <p class="movie-list-item-desc">FAIRY TAIL is an anime series about a teen named Lucy (voiced by Cherami Leigh) 
+                                who runs away with her new friend</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="revenge.webp" alt="">
+                            <span class="movie-list-item-title">TOKYO REVENGE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="mob.jpg" alt="">
+                            <span class="movie-list-item-title">MOB PSYCHO</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <!--2-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="dragon.webp" alt="">
+                            <span class="movie-list-item-title">DRAGON BALL Z</span>
+                            <p class="movie-list-item-desc">Toriyama's manga was adapted and divided into two anime series produced by
+                                 Toei Animation: Dragon Ball and Dragon Ball Z</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="kaisen.jpg" alt="">
+                            <span class="movie-list-item-title">JUJUTSU KAISEN</span>
+                            <p class="movie-list-item-desc">Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="ghoul.webp" alt="">
+                            <span class="movie-list-item-title">TOKYO GHOUL</span>
+                            <p class="movie-list-item-desc">Tokyo Ghoul: With Natsuki Hanae a Tokyo college student is attacked by a ghoul, a superpowered human who feeds.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="haikyu.jpg" alt="">
+                            <span class="movie-list-item-title">HAIKYUU</span>
+                            <p class="movie-list-item-desc">Haikyuu is a Japanese shōnen manga series written and illustrated by Haruichi Furudate. The story follows Shoyo Hinata</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="pass.png" alt="">
+                            <span class="movie-list-item-title">PSYCHO-PASS</span>
+                            <p class="movie-list-item-desc">Set in a dystopia of Sibyl System's governance of Japan, 
+                                the plot follows the young woman Akane Tsunemori.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="hunter.jfif" alt="">
+                            <span class="movie-list-item-title">HUNTERXHUNTER</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="attack 1.jfif" alt="">
+                            <span class="movie-list-item-title">ATTACK ON TITAN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('chain.jpg');">
+                <img class="featured-title"  src="demon.png" alt="">
+                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
+                    deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
+                    minima voluptatibus incidunt. Accusamus, provident.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title"></h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="hero.jfif" alt="">
+                            <span class="movie-list-item-title">HERO ACADEMIA</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="one.jpg" alt="">
+                            <span class="movie-list-item-title">ONE PUNCH MAN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="bleach.jfif" alt="">
+                            <span class="movie-list-item-title">BLEACH</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="spy.jpg" alt="">
+                            <span class="movie-list-item-title">SPY FAMILY</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="code.jfif" alt="">
+                            <span class="movie-list-item-title">CODEGEASS</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="seeds.jpg" alt="">
+                            <span class="movie-list-item-title">7 SEEDS</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="zero.webp" alt="">
+                            <span class="movie-list-item-title">RE:ZERO</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="lock.jpg" alt="">
+                            <span class="movie-list-item-title">BLUE LOCK</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="hell.webp" alt="">
+                            <span class="movie-list-item-title">HELLSING</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="ajin.jpg" alt="">
+                            <span class="movie-list-item-title">AJIN:DEMI-HUMAN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="kabaneri.jpg" alt="">
+                            <span class="movie-list-item-title">KABANERI</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="blue.jfif" alt="">
+                            <span class="movie-list-item-title">BLUE PERIOD</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="bna.jpg" alt="">
+                            <span class="movie-list-item-title">BNA</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="fruits.webp" alt="">
+                            <span class="movie-list-item-title">FRUITS MARKET</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
